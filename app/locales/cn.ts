@@ -4,7 +4,7 @@ import { SubmitKey } from "../store/config";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "更新中",
+  WIP: "QQ交流群:783998756",
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
@@ -13,8 +13,8 @@ const cn = {
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI API 密钥",
-    Input: "在此处填写访问码",
+    SubTips: "请输入鱼小铺AI助手密钥",
+    // Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
   },
@@ -368,13 +368,13 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "插件",
+    Name: "交流群",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
   },
   Mask: {
-    Name: "面具",
+    Name: "预设",
     Page: {
       Title: "预设角色面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
