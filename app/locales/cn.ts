@@ -4,7 +4,7 @@ import { SubmitKey } from "../store/config";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "更新中",
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
@@ -276,7 +276,7 @@ const cn = {
         Placeholder: "请输入访问密码",
       },
       CustomEndpoint: {
-        Title: "自定义接口",
+        Title: "密钥设置",
         SubTitle: "是否使用自定义 Azure 或 OpenAI 服务",
       },
       Provider: {
